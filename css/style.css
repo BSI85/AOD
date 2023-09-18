@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*Обнуление*/
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 * {
   padding: 0px;
   margin: 0px;
@@ -10,8 +10,6 @@
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -97,7 +95,7 @@ body {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .wrapper {
@@ -158,7 +156,7 @@ body {
 }
 .menu__list li::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 2px;
   height: 2px;
   border-radius: 50%;
@@ -166,7 +164,8 @@ body {
   right: 0;
   top: 45%;
 }
-.menu__list li:nth-child(2)::after, .menu__list li:last-child::after {
+.menu__list li:nth-child(2)::after,
+.menu__list li:last-child::after {
   display: none;
 }
 .menu__link {
@@ -199,10 +198,12 @@ body {
   .menu__list li {
     padding: 0px 0px 45px 0px;
   }
-  .menu__list li:nth-child(2), .menu__list li:nth-child(3) {
+  .menu__list li:nth-child(2),
+  .menu__list li:nth-child(3) {
     padding: 0px 0px 45px 0px;
   }
-  .menu__list li:nth-child(2):after, .menu__list li:nth-child(3):after {
+  .menu__list li:nth-child(2):after,
+  .menu__list li:nth-child(3):after {
     display: block;
   }
   .menu__list li:last-child {
@@ -276,7 +277,9 @@ body {
 .main-screen__bg img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: center;
   object-position: center;
 }
 
@@ -321,7 +324,7 @@ body {
   color: #848789;
 }
 .block__text_j::after {
-  content: "";
+  content: '';
   display: block;
   margin: 35px auto 0px auto;
   width: 50px;
@@ -354,7 +357,7 @@ body {
   position: relative;
 }
 .brands__content::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -9px;
   left: 50%;
@@ -369,13 +372,13 @@ body {
   padding: 0px 0px 37.5% 0px;
 }
 .brands__image_0 {
-  background: url(../../img/pictures/Layer_11.png) center/cover no-repeat;
+  background: url(../img/pictures/Layer_11.png) center/cover no-repeat;
 }
 .brands__image_a {
-  background: url(../../img/pictures/Layer_13.png) center/cover no-repeat;
+  background: url(../img/pictures/Layer_13.png) center/cover no-repeat;
 }
 .brands__image_b {
-  background: url(../../img/pictures/Layer_16.png) center/cover no-repeat;
+  background: url(../img/pictures/Layer_16.png) center/cover no-repeat;
 }
 @media (max-width: 1500px) {
   .brands__content {
@@ -434,40 +437,40 @@ body {
   height: 100%;
 }
 .item__image_0 {
-  background: url(../../img/pictures/Layer_10.png) center/cover no-repeat;
+  background: url(../img/pictures/Layer_10.png) center/cover no-repeat;
 }
 .item__image_a {
-  background: url(../../img/pictures/Layer_12.png) center/cover no-repeat;
+  background: url(../img/pictures/Layer_12.png) center/cover no-repeat;
 }
 .item__image_b {
-  background: url(../../img/pictures/Layer_15.png) center/cover no-repeat;
+  background: url(../img/pictures/Layer_15.png) center/cover no-repeat;
 }
 .item__image_c {
-  background: url(../../img/pictures/Layer_14.png) center/cover no-repeat;
+  background: url(../img/pictures/Layer_14.png) center/cover no-repeat;
 }
 .item__image_1 {
-  background: url(../../img/pictures/1.png) center/cover no-repeat;
+  background: url(../img/pictures/1.png) center/cover no-repeat;
 }
 .item__image_2 {
-  background: url(../../img/pictures/2.png) center/cover no-repeat;
+  background: url(../img/pictures/2.png) center/cover no-repeat;
 }
 .item__image_3 {
-  background: url(../../img/pictures/3.png) center/cover no-repeat;
+  background: url(../img/pictures/3.png) center/cover no-repeat;
 }
 .item__image_4 {
-  background: url(../../img/pictures/4.png) center/cover no-repeat;
+  background: url(../img/pictures/4.png) center/cover no-repeat;
 }
 .item__image_5 {
-  background: url(../../img/pictures/5.png) center/cover no-repeat;
+  background: url(../img/pictures/5.png) center/cover no-repeat;
 }
 .item__image_6 {
-  background: url(../../img/pictures/6.png) center/cover no-repeat;
+  background: url(../img/pictures/6.png) center/cover no-repeat;
 }
 .item__image_7 {
-  background: url(../../img/pictures/7.png) center/cover no-repeat;
+  background: url(../img/pictures/7.png) center/cover no-repeat;
 }
 .item__image_8 {
-  background: url(../../img/pictures/8.png) center/cover no-repeat;
+  background: url(../img/pictures/8.png) center/cover no-repeat;
 }
 .item:hover .item__logo {
   opacity: 1;
